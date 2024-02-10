@@ -38,21 +38,27 @@ body {
 
 .logo > ul {
   display: flex;
-  gap: 16px;
+  gap: 32px;
 }
 
 .header-content {
   display: flex;
   gap: 32px;
-  padding: 100px 200px;
+  /* padding: 100px 200px; */
+  flex: 1 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
 }
 
 .hero {
   flex: 1;
+  max-width: 450px;
 }
 
 .image {
   flex: 1;
+  max-width: 450px;
 }
 
 .hero > h1 {
@@ -86,7 +92,7 @@ body {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
-  margin-top: 32px;
+  margin: 32px 0;
 }
 
 .main-content {
@@ -140,8 +146,8 @@ body {
 
 .sign-up-content {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   color: #e5e7eb;
   background-color: #3882f6;
   padding: 32px 0;
