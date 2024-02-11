@@ -96,7 +96,7 @@ body {
 }
 
 .main-content {
-  flex: 2 300px;
+  flex: 2 450px;
   display: flex;
   justify-content: center;
   gap: 32px;
